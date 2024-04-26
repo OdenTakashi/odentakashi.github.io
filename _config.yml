@@ -27,7 +27,6 @@ github_username:  odentakashi
 
 # Build settings
 remote_theme: erlzhang/jekyll-theme-persephone
-theme: jekyll-theme-persephone 
 plugins:
   - jekyll-feed
 
