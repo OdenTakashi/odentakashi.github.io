@@ -45,6 +45,9 @@ theme_setting:
       url: "/about"
 
 markdown: redcarpet
+redcarpet:
+    extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink",
+                 "tables", "with_toc_data"]
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
 # the internal "default list".
