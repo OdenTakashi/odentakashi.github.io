@@ -64,3 +64,5 @@ theme_setting:
 #   - vendor/ruby/
 # header_pages:
 #   - about.md
+
+timezone: Asia/Tokyo
