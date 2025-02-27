@@ -1,6 +1,6 @@
 TITLE = ARGV[0]
-CREATED_DATE = Time.now.strftime("%Y-%m-%d %H:%M")
-TODAY = Time.now.strftime("%Y-%m-%d")
+CREATED_DATE = Time.now.utc.strftime("%Y-%m-%d %H:%M")
+TODAY = Time.now.utc.strftime("%Y-%m-%d")
 FILENAME = "_posts/#{TODAY}.md"
 
 if File.exist?(FILENAME)
