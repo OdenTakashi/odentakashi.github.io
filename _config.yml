@@ -31,6 +31,8 @@ social:
 remote_theme: erlzhang/jekyll-theme-persephone
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
 
 theme_setting:
   # The slides count in the slides layout. Default is 4.
